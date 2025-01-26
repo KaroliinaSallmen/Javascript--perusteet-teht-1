@@ -23,9 +23,9 @@ rl.question("Anna sana: ", (answer) => {
   let word = answer;
 
   if (PalindromeChecker(word)) {
-    console.log("Sana on palindromi.");
+    console.log("Sana on palindromi."); // Jos true
   } else {
-    console.log("Sana ei ole palindromi.");
+    console.log("Sana ei ole palindromi."); // Jos false
   }
 
   rl.close();
